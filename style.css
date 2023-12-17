@@ -42,6 +42,10 @@ strong {
   color: #3f3d56;
 }
 
+#logo {
+  color: #828282;
+}
+
 footer {
   margin: auto;
   text-align: center;
@@ -53,7 +57,13 @@ a {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: bold;
-  display: flex;
-  margin-bottom: 40.83px;
-  justify-content: center;
+}
+
+a + a {
+  margin-left: 42px;
+}
+
+#wave {
+  display: block;
+  margin: 40.83px auto 0;
 }
